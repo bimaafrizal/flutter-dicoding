@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:widget_lanjutan/image.dart';
 import 'package:widget_lanjutan/input.dart';
 import 'buttons.dart';
+import 'fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,8 +27,10 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
+        //untuk merubah default font gumakan fontFamily
+        // fontFamily: 'Oswald'
       ),
-      home: InputScreen(),
+      home: CustomFonts(),
     );
   }
 }
