@@ -3,8 +3,11 @@ import 'package:widget_lanjutan/expanded.dart';
 import 'package:widget_lanjutan/flexible.dart';
 import 'package:widget_lanjutan/image.dart';
 import 'package:widget_lanjutan/input.dart';
+import 'package:widget_lanjutan/layout_builder_responsive.dart';
+import 'package:widget_lanjutan/layout_builder_responsive_2.dart';
 import 'package:widget_lanjutan/list_view_builder.dart';
 import 'package:widget_lanjutan/list_view_separated.dart';
+import 'package:widget_lanjutan/media_query_responsive.dart';
 import 'package:widget_lanjutan/navigator_1.dart';
 import 'buttons.dart';
 import 'fonts.dart';
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
         //untuk merubah default font gumakan fontFamily
         // fontFamily: 'Oswald'
       ),
-      home: FirstScreen(),
+      home: ResponsivePage(),
     );
   }
 }
