@@ -5,6 +5,7 @@ import 'package:widget_lanjutan/image.dart';
 import 'package:widget_lanjutan/input.dart';
 import 'package:widget_lanjutan/list_view_builder.dart';
 import 'package:widget_lanjutan/list_view_separated.dart';
+import 'package:widget_lanjutan/navigator_1.dart';
 import 'buttons.dart';
 import 'fonts.dart';
 import 'list_view.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         //untuk merubah default font gumakan fontFamily
         // fontFamily: 'Oswald'
       ),
-      home: ExpandedFlexiblePage(),
+      home: FirstScreen(),
     );
   }
 }
