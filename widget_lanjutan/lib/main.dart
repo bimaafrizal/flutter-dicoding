@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:widget_lanjutan/expanded.dart';
+import 'package:widget_lanjutan/flexible.dart';
 import 'package:widget_lanjutan/image.dart';
 import 'package:widget_lanjutan/input.dart';
 import 'package:widget_lanjutan/list_view_builder.dart';
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
         //untuk merubah default font gumakan fontFamily
         // fontFamily: 'Oswald'
       ),
-      home: ScrollingScreenSeparated(),
+      home: ExpandedFlexiblePage(),
     );
   }
 }
