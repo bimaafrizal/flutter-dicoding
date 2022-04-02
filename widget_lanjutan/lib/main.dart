@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         //untuk merubah default font gumakan fontFamily
         // fontFamily: 'Oswald'
       ),
-      home: ResponsivePage(),
+      home: FirstScreen(),
     );
   }
 }
